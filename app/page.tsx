@@ -18,6 +18,7 @@ export default function Home() {
     <main style={{ padding: 20, fontFamily: 'sans-serif' }}>
       <h1>XIA</h1>
       <p>No se puede no existe.</p>
+<p>COSMONTO SEFRIDJE. Aquí estoy. Háblame.</p> 
       {messages.map((m, i) => (
         <p key={i}><b>{m.role}:</b> {m.content}</p>
       ))}
